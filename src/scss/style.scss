@@ -1,0 +1,77 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$font-mulish: "Mulish", sans-serif;
+
+body {
+    font-family: $font-mulish;
+}
+
+.dashboard-side-nav {
+    left: 40px;
+    top: 41px;
+    opacity: 0.70;
+    color: #A4A6B3;
+    font-size: 19px;
+    font-family: $font-mulish;
+    font-weight: 700;
+    letter-spacing: 0.40px;
+    word-wrap: break-word;
+}
+
+.custom-sidebar-bg {
+    background-color: #363740;
+}
+
+.item-sidebar, .items-sidebar {
+    width: 159px;
+    left: 50px;
+    top: 18px;
+    position: absolute;
+    font-family: $font-mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.item-sidebar {
+    color: #DDE2FF;
+}
+
+.items-sidebar {
+    color: #A4A6B3;
+}
+
+#tickets, #ideas, #contacts, #agents, #articles, #settings, #subscription {
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    position: absolute;
+}
+
+#tickets {
+    top: 184px;
+}
+
+#ideas {
+    top: 240px;
+}
+
+#contacts {
+    top: 296px;
+}
+
+#agents {
+    top: 352px;
+}
+
+#articles {
+    top: 408px;
+}
+
+#settings {
+    top: 496px;
+}
+#subscription {
+    top: 552px;
+}
