@@ -22,10 +22,9 @@ body {
     background-color: #363740;
 }
 
-.item-sidebar, .items-sidebar {
+.items-sidebar {
     width: 159px;
     left: 50px;
-    top: 18px;
     position: absolute;
     font-family: $font-mulish;
     font-size: 16px;
@@ -34,8 +33,9 @@ body {
     letter-spacing: 0.2px;
 }
 
-.item-sidebar {
+.overview {
     color: #DDE2FF;
+    top: 128px;
 }
 
 .items-sidebar {
@@ -67,6 +67,7 @@ body {
 
 #articles {
     top: 408px;
+
 }
 
 #settings {
@@ -74,4 +75,31 @@ body {
 }
 #subscription {
     top: 552px;
+}
+
+#overview-title{
+    font-weight: bold;
+    font-size: 24px ;
+}
+#James-Name{
+    width: 109px; 
+    height: 18px; 
+    left: 955px; 
+    top: 13px; 
+    text-align: right; 
+    color: #252733; 
+    font-size: 14px;
+    margin: 10px;
+}
+#James-pic{
+    width: 44px;
+    height: 44px;
+    left: 1078px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2px solid #DFE0EB;
+    padding: 2px;
+}
+#search{
+    margin-right: 20px;
 }
