@@ -103,3 +103,33 @@ body {
 #search{
     margin-right: 20px;
 }
+
+
+$primary-color: #007bff;
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}
+
