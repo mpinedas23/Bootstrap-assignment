@@ -11846,6 +11846,7 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Mulish", sans-serif;
+  background-color: #F7F8FC;
 }
 
 .dashboard-side-nav {
@@ -11919,6 +11920,10 @@ body {
   top: 552px;
 }
 
+.header, .data-container, .chart-container {
+  font-family: "Mulish", sans-serif;
+}
+
 #overview-title {
   font-weight: bold;
   font-size: 24px;
@@ -11947,6 +11952,67 @@ body {
 
 #search {
   margin-right: 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1, .h1 {
+  color: #007bff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 134px;
+  width: 258px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+.card .card-text {
+  color: #9FA2B4;
+}
+
+.blue-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #3751FF;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.chart-container {
+  background-color: white;
+  border: 1px solid #DFE0EB;
+  border-radius: 5px;
+  width: 1200px;
+  height: 546px;
+  left: 285px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,6 +4,7 @@ $font-mulish: "Mulish", sans-serif;
 
 body {
     font-family: $font-mulish;
+    background-color: #F7F8FC;
 }
 
 .dashboard-side-nav {
@@ -77,6 +78,10 @@ body {
     top: 552px;
 }
 
+
+.header, .data-container,.chart-container{
+    font-family: $font-mulish;
+}
 #overview-title{
     font-weight: bold;
     font-size: 24px ;
@@ -132,4 +137,41 @@ th {
 td {
   text-align: right;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 134px;
+    width: 258px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 19px;
+    
+    .card-text{
+        color: #9FA2B4;
+        
+    }
+  
+}
+.blue-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #3751FF;
+    font-weight: bold;
+    font-size: 19px;
+}
 
+.chart-container{
+    background-color: white;
+    border: 1px solid #DFE0EB;
+    border-radius: 5px;
+    width: 1200px;
+    height: 546px;
+    left: 285px;
+
+
+}
